@@ -5,3 +5,7 @@
     [Cnpj] NVARCHAR(14) NOT NULL, 
     [Cep] NVARCHAR(8) NOT NULL
 )
+
+GO
+
+CREATE UNIQUE INDEX [IX_Empresas_Cnpj] ON [dbo].[Empresas] ([Cnpj])

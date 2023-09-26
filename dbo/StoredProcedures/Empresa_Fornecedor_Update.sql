@@ -1,4 +1,4 @@
-﻿CREATE PROCEDURE [dbo].[Empresa_Forenecedor_Update]
+﻿CREATE PROCEDURE [dbo].[Empresa_Fornecedor_Update]
 @Id int,
 @Id_Empresa int,
 @Id_Fornecedor int

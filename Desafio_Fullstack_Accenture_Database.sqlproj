@@ -11,8 +11,8 @@
     <OutputType>Database</OutputType>
     <RootPath>
     </RootPath>
-    <RootNamespace>SQLServerDatabase</RootNamespace>
-    <AssemblyName>SQLServerDatabase</AssemblyName>
+    <RootNamespace>Desafio_Fullstack_Accenture_Database</RootNamespace>
+    <AssemblyName>Desafio_Fullstack_Accenture_Database</AssemblyName>
     <ModelCollation>1033, CI</ModelCollation>
     <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
     <DeployToDatabase>True</DeployToDatabase>
@@ -71,14 +71,16 @@
     <Build Include="dbo\StoredProcedures\Fornecedor_Delete.sql" />
     <Build Include="dbo\StoredProcedures\Fornecedor_Get.sql" />
     <Build Include="dbo\StoredProcedures\Fornecedor_Insert_Cpf.sql" />
-    <Build Include="dbo\StoredProcedures\Fornecedor_Update.sql" />
+    <Build Include="dbo\StoredProcedures\Fornecedor_Update_Cpf.sql" />
     <Build Include="dbo\StoredProcedures\Fornecedor_Insert_Cnpj.sql" />
-    <Build Include="dbo\StoredProcedures\Empresa_Forenecedor_Delete.sql" />
-    <Build Include="dbo\StoredProcedures\Empresa_Forenecedor_Get.sql" />
-    <Build Include="dbo\StoredProcedures\Empresa_Forenecedor_Insert.sql" />
-    <Build Include="dbo\StoredProcedures\Empresa_Forenecedor_Update.sql" />
+    <Build Include="dbo\StoredProcedures\Empresa_Fornecedor_Delete.sql" />
+    <Build Include="dbo\StoredProcedures\Empresa_Fornecedor_Get.sql" />
+    <Build Include="dbo\StoredProcedures\Empresa_Fornecedor_Insert.sql" />
+    <Build Include="dbo\StoredProcedures\Empresa_Fornecedor_Update.sql" />
     <Build Include="dbo\StoredProcedures\Empresa_GetAll.sql" />
     <Build Include="dbo\StoredProcedures\Fornecedor_GetAll.sql" />
+    <Build Include="dbo\StoredProcedures\Fornecedor_Update_Cnpj.sql" />
+    <Build Include="dbo\StoredProcedures\Empresa_Fornecedor_GetAll.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="SQLServerDatabase.refactorlog" />

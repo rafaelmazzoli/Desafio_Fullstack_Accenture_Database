@@ -8,3 +8,7 @@
     [Rg] NVARCHAR(32) NULL,
     [Data_Nascimento] DATE NULL
 )
+
+GO
+
+CREATE UNIQUE INDEX [IX_Fornecedores_Cnpj_Cpf] ON [dbo].[Fornecedores] ([Cnpj_Cpf])
